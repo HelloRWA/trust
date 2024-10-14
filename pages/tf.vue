@@ -9,6 +9,8 @@ useSeoMeta({
 
 const { isLoading, doLogin, address, doLogout } = $(authStore());
 const { isLogin } = $(supabaseStore());
+const { alertWithModal } = $(notificationStore());
+let isClaimed = $ref(false);
 
 const items = $computed(() => {
   return [
@@ -18,12 +20,16 @@ const items = $computed(() => {
         "Connect your X account. You should have at least 100 followers with 100 tweets.",
       icon: "line-md:twitter-x",
       tfValue: 10,
-      btnDisabled: !!isLogin,
+      btnDisabled: isClaimed,
       onClick: () => {
-        if (isLogin) {
+        if (!isLogin) {
+          return alertWithModal("authWithX", "Please login first", '');
+        }
+        if (isClaimed) {
           return;
         }
-        doLogin("twitter");
+
+        
       },
     },
     {
