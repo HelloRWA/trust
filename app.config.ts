@@ -18,6 +18,7 @@ export default defineAppConfig({
       to: '/forbes'
     },
   ],
+  pwaConnector: false,
   ui: {
     primary: 'lime',
     gray: 'cool',
