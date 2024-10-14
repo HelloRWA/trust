@@ -14,8 +14,8 @@ export default defineAppConfig({
       to: '/trust'
     },
     {
-      label: 'Rank',
-      to: '/rank'
+      label: 'Forbes',
+      to: '/forbes'
     },
   ],
   ui: {

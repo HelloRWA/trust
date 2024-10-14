@@ -15,12 +15,14 @@ useHead({
   },
 });
 
-const title = "Template Layer SaaS";
-const description = "Template Layer SaaS";
+const { title, description } = useAppConfig();
 
 useSeoMeta({
   title,
   description,
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - ${title}` : title;
+  },
   ogTitle: title,
   ogDescription: description,
   ogImage: "https://dashboard-template.nuxt.dev/social-card.png",

@@ -11,7 +11,7 @@ const stats = [
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="text-center">
         <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-          Trust Factor
+          $TrustFactor
         </h2>
         <p class="mt-4 text-lg leading-8 text-gray-300">
           The factor that effect your $Trust Token mint.

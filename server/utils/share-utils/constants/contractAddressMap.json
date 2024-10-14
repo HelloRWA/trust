@@ -1,0 +1,52 @@
+{
+  "ao": {
+    "snake": "yE0R7eMnvdoKnV9K_j0GoCaYV07TqjTPhcH796sNM10",
+    "BSTSwap": "33k3yqgH4wn3TxD2TnmIueaYvjRy-Se7XH7LvOf_rb4",
+    "BSTEntropy": "BSf8_4l58wOjizTreoknc_n0AY8tJY3sz2mN-gAvVeg"
+  },
+  "hardhat": {
+    "UNIBridgeStaking": "0xb51c5f8d846ae5532242861D547606d43F76f096",
+    "BSTEntropy": "0x2c1c97a73699c79b29ca880d816fb8574cc1692a",
+    "USDC": "0x2c1c97a73699c79b29ca880d816fb8574cc1692a",
+    "UBStake": "0x6e6fb1ee263cb9d258b524d1c06c2c27988cc38f",
+    "BSTSwapForAO": "0xd10cf92ac1be7185b456ab441b5e6073cff8d96c"
+  },
+  "avalancheFuji": {
+    "UNIBridgeWormhole": "0xd5669e5d36df0950e4571868894abc637d9e3f16",
+    "MockERC20": "0x143e98f9025e84b5e78b706eb59fcfe796c319cf",
+    "MockERC721": "0x4b16ec1c851d453704ceba77646404955ff45f1c",
+    "MockERC1155": "0x4b3dd45716a9b38da9e44ebde981e4ade380bdcb"
+  },
+  "alfajores": {
+    "UNIBridgeWormhole": "0xe6300786843e9c55a910e20910a593edddd162c0",
+    "MockERC20": "0x1cb4b8060d15afcc531ec2d81f76bd29c586fef0",
+    "MockERC721": "0xf797936bbcc91387b031fd8f794a2f035ad73143",
+    "MockERC1155": "0xf2fc890088d9b1a1926fa404fed6e75d5b4275d7"
+  },
+  "opMainnet": {
+    "UNIBridgeWormhole": "0xf9982e648ee8f9e3e9039b0071ba939c3bc19652"
+  },
+  "acala": {
+    "UNIBridgeWormhole": "0x0c7274b6a23c8b257868cab80b991370ca6b06d7"
+  },
+  "celo": {
+    "UNIBridgeWormhole": "0xc7dbefe0b888323c8bcc8e32fdfd864cca68bb47",
+    "MockERC20": "0x9310ef0412ddc95acfb1fb358e1ab1a990755457",
+    "MockERC721": "0x2c1c97a73699c79b29ca880d816fb8574cc1692a"
+  },
+  "polygon": {
+    "UNIBridgeWormhole": "0x1cb4b8060d15afcc531ec2d81f76bd29c586fef0",
+    "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+  },
+  "moonbaseAlpha": {
+    "UNIBridgeWormhole": "0xa3770576dbc489f421216eff43e39120d69e5f65",
+    "MockERC721": "0xd5669e5d36df0950e4571868894abc637d9e3f16",
+    "BSTEntropy": "0x8f81e58cad9b99add4eeadfa0344b24a1d4cd9de",
+    "UBStake": "0x76ca8e630415be9615396724f51ff1702b86ed63"
+  },
+  "polygonAmoy": {
+    "BSTSwapForAO": "0xf2de0015b54f82d997875f29cdc07107c56269f3",
+    "BSTEntropy": "0x8fc379308ca230f922c50af7b17139e40c701e15",
+    "USDC": "0x8fc379308ca230f922c50af7b17139e40c701e15"
+  }
+}

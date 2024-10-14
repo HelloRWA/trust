@@ -1,4 +1,12 @@
 <script setup lang="ts">
+definePageMeta({
+  colorMode: "dark",
+});
+useSeoMeta({
+  title: "$TrustFactor",
+  description: "The factor that effect your $Trust Token mint.",
+});
+
 const items = [
   {
     title: "Auth with X",

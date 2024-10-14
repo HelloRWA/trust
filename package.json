@@ -12,9 +12,11 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@web3-fullstack/layer": "*",
     "@web3-fullstack/layer-saas": "*",
+    "@vue-macros/reactivity-transform": "^1.1.1",
+    "@web3-fullstack/layer": "0.0.14",
     "@dicebear/collection": "^9.0.1",
+    "nuxt-countdown": "^1.1.1",
     "@dicebear/core": "^9.0.1",
     "@iconify/json": "^2.2.259",
     "@permaweb/aoconnect": "^0.0.59",
