@@ -22,12 +22,9 @@ const canSubmit = $computed(() => {
 <template>
   <UMain class="flex pt-10 justify-center">
     <UContainer class="w-full">
-      <ULandingHero
-        :ui="{ wrapper: 'py-12 sm:py-16 md:py-20' }"
-        title="Crypto Forbes"
-        description="The people that we can $TRUST on the top rank."
-      />
+      
       <!-- <TrustForbesTabs /> -->
+       <TrustForbesStats />
       <TrustForbesList class="my-10" />
     </UContainer>
   </UMain>
