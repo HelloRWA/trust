@@ -1,24 +1,25 @@
 export default defineAppConfig({
-  title: 'Template Layer SaaS',
+  title: 'Trust',
   titleBadge: 'Beta',
-  titleTemplate: '%s - Template Layer SaaS',
-  description: 'A Web3 Full Stack SaaS Template based on Web3 Full Stack Layer SaaS',
+  titleTemplate: '%s - Trust',
+  description: 'A web3 Trust Protocol',
+  showFooterTop: false,
   links: [
     {
-      label: 'Docs',
-      to: '/docs'
+      label: '$TF',
+      to: '/tf'
     },
     {
-      label: 'Pricing',
-      to: '/pricing'
+      label: '$Trust',
+      to: '/trust'
     },
     {
-      label: 'Blog',
-      to: '/blog'
-    }
+      label: 'Rank',
+      to: '/rank'
+    },
   ],
   ui: {
-    primary: 'sky',
+    primary: 'lime',
     gray: 'cool',
     tooltip: {
       default: {
