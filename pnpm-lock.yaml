@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.0.14
     version: 0.0.14(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
   '@web3-fullstack/layer-saas':
-    specifier: '*'
-    version: 0.0.15(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
+    specifier: 0.1.2
+    version: 0.1.2(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
   arweave-wallet-connector:
     specifier: ^1.0.2
     version: 1.0.2
@@ -3745,7 +3745,7 @@ packages:
       knitwork: 1.1.0
       magic-string: 0.30.12
       mlly: 1.7.2
-      ohash: 1.1.3
+      ohash: 1.1.4
       pathe: 1.1.2
       perfect-debounce: 1.0.0
       pkg-types: 1.2.1
@@ -7302,16 +7302,21 @@ packages:
       web-streams-polyfill: 3.3.3
     dev: false
 
-  /@web3-fullstack/layer-saas@0.0.15(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
-    resolution: {integrity: sha512-QYNM7BAxtkDUn36GfHj/pGAWzIIGAgWKBtDYGZo50uvkdJh1tC0VJ0AkWEt2RCFh0Qe+/XA8TIwEK2YQ6Dn7lA==}
+  /@web3-fullstack/layer-saas@0.1.2(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
+    resolution: {integrity: sha512-hjtVr8G+GWUwrkY0LJGyQrQUhc2NZ3QxOka8gvoSvGlnl/fraGzPLP0/k1P98Ma/nnlTXx1Ns3LpCLqMXM/Diw==}
     dependencies:
       '@dicebear/collection': 9.2.2(@dicebear/core@9.2.2)
       '@dicebear/core': 9.2.2
+      '@iconify/json': 2.2.260
+      '@permaweb/aoconnect': 0.0.59
+      '@vue-macros/reactivity-transform': 1.1.1(vue@3.5.12)
       '@wagmi/connectors': 5.1.15(@wagmi/core@2.13.8)(react-native@0.75.4)(react@18.3.1)(viem@2.21.24)
       '@wagmi/core': 2.13.8(react@18.3.1)(viem@2.21.24)
-      '@web3-fullstack/layer': 0.0.13(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
+      '@web3-fullstack/layer': 0.0.15(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
+      arweave-wallet-connector: 1.0.2
       date-fns: 3.6.0
       nft.storage: 7.2.0(node-fetch@2.7.0)
+      nuxt-countdown: 1.1.1
       v-calendar: 3.1.2(@popperjs/core@2.11.8)(vue@3.5.12)
       viem: 2.21.24
     transitivePeerDependencies:
@@ -7334,7 +7339,6 @@ packages:
       - '@unocss/webpack'
       - '@upstash/redis'
       - '@vercel/kv'
-      - '@vue-macros/reactivity-transform'
       - '@vue/compiler-core'
       - '@vue/composition-api'
       - '@vueuse/core'
@@ -7377,8 +7381,8 @@ packages:
       - zod
     dev: false
 
-  /@web3-fullstack/layer@0.0.13(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
-    resolution: {integrity: sha512-8fV2Gz92HIFIDsfqBUSwZ9DErnFHXvQD/uNcKU9C9T5CbuPMH7qtIYEZsFAtuNRJmQna2edEAPA5M1fZkMUylA==}
+  /@web3-fullstack/layer@0.0.14(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
+    resolution: {integrity: sha512-M6USgbiV8tWFDOm5y9MdnN3eBXMBzMTs5rfGj5iNwUhRaKdYqraliAKT9mmqgJPOX9zeUgdxLFhatczuMGItuw==}
     dependencies:
       '@nuxt/content': 2.12.1(nuxt@3.11.1)(vue@3.5.12)
       '@nuxt/fonts': 0.5.1(nuxt@3.11.1)(vite@5.2.7)
@@ -7445,8 +7449,8 @@ packages:
       - webpack-sources
     dev: false
 
-  /@web3-fullstack/layer@0.0.14(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
-    resolution: {integrity: sha512-M6USgbiV8tWFDOm5y9MdnN3eBXMBzMTs5rfGj5iNwUhRaKdYqraliAKT9mmqgJPOX9zeUgdxLFhatczuMGItuw==}
+  /@web3-fullstack/layer@0.0.15(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
+    resolution: {integrity: sha512-o3KNcbBAQLomYT7i4MVXvsGAgbLFGBQgvBEhw2wjHr68sEj3JWNKnFhGEloFi25YfMzFbkzMALHSHf2jTgqzzA==}
     dependencies:
       '@nuxt/content': 2.12.1(nuxt@3.11.1)(vue@3.5.12)
       '@nuxt/fonts': 0.5.1(nuxt@3.11.1)(vite@5.2.7)
@@ -7457,6 +7461,7 @@ packages:
       '@pinia/nuxt': 0.5.1(vue@3.5.12)
       '@vue-macros/nuxt': 1.10.2(@vue-macros/reactivity-transform@1.1.1)(esbuild@0.20.2)(nuxt@3.11.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
       '@vueuse/nuxt': 10.9.0(nuxt@3.11.1)(vue@3.5.12)
+      nuxt-countdown: 1.1.1
       nuxt-gtag: 2.0.5
       nuxt-lodash: 2.5.3
       nuxt-og-image: 3.0.0-rc.47(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue/compiler-core@3.5.12)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
@@ -13086,7 +13091,7 @@ packages:
       mri: 1.2.0
       node-fetch-native: 1.6.4
       ofetch: 1.3.4
-      ohash: 1.1.3
+      ohash: 1.1.4
       openapi-typescript: 6.7.5
       pathe: 1.1.2
       perfect-debounce: 1.0.0
@@ -13526,9 +13531,9 @@ packages:
       mlly: 1.7.2
       nitropack: 2.9.5
       nuxi: 3.11.1
-      nypm: 0.3.8
+      nypm: 0.3.12
       ofetch: 1.3.4
-      ohash: 1.1.3
+      ohash: 1.1.4
       pathe: 1.1.2
       perfect-debounce: 1.0.0
       pkg-types: 1.2.1
