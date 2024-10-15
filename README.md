@@ -2,7 +2,6 @@
 
 - [PPT](./trust.key)
 - [contracts](./contracts)
-- [Live demo](https://trust.rwa-wallet.com/)
 
 ## 起源
 
