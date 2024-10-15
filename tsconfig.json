@@ -5,6 +5,8 @@
     // ...
     "types": [
       "unplugin-vue-macros/macros-global" /* ... */
-    ]
+    ],
+    "jsx": "preserve",
+    "reactivityTransform": true
   }
 }
