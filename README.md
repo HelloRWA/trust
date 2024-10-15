@@ -50,7 +50,7 @@
 
 ## 合约实现
 
-### TrustFactory
+### [TrustFactory](./contracts/TrustFactory.sol)
 
 通过服务器端提供签名信息，用户会获得对应的 `$TrustFactor` 代币。
 
@@ -65,7 +65,7 @@ function mint(address to, uint256 amount, string memory nonce, bytes memory sign
 }
 ```
 
-### Trust
+### [Trust](./contracts/Trust.sol)
 
 用户每 24 小时可以领取一次 `$Trust` 代币，领取的数额和用户的 `$TrustFactor` 成正比。
 未来可能会增加更多改进性算法。
