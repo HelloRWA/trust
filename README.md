@@ -1,8 +1,8 @@
 # Trust.RWA-Wallet.com
 
 - [PPT](./trust.key)
+- [contracts](./contracts)
 - [Live demo](https://trust.rwa-wallet.com/)
-- [Documentation](https://ui.nuxt.com/pro/getting-started)
 
 ## 起源
 
@@ -47,6 +47,42 @@
 ![Trust](./s2.png)
 
 ![Crypto Forbes](./s3.png)
+
+## 合约实现
+
+### TrustFactory
+
+通过服务器端提供签名信息，用户会获得对应的 `$TrustFactor` 代币。
+
+```solidity
+function mint(address to, uint256 amount, string memory nonce, bytes memory signature) public whenNotPaused {
+    bytes32 messageHash = MessageHashUtils.toEthSignedMessageHash(
+        keccak256(abi.encodePacked(msg.sender, amount, nonce))
+    );
+    address _signer = ECDSA.recover(messageHash, signature);
+    require(_signer == signer, "Invalid signature");
+    _mint(to, amount);
+}
+```
+
+### Trust
+
+用户每 24 小时可以领取一次 `$Trust` 代币，领取的数额和用户的 `$TrustFactor` 成正比。
+未来可能会增加更多改进性算法。
+
+```solidity
+function claim(address to) public whenNotPaused {
+    require(block.timestamp >= lastClaimTime[to] + 24 hours, "Can only claim once every 24 hours");
+
+    uint256 tfScore = IERC20(tfAddress).balanceOf(address(to));
+    uint256 tfTotalSupply = IERC20(tfAddress).totalSupply();
+    uint256 amount = (tfScore * dailySupply) / tfTotalSupply;
+    _mint(to, amount);
+
+    lastClaimTime[to] = block.timestamp;
+}
+```
+
 
 ## 未来规划
 
