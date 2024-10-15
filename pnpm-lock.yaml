@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.0.14
     version: 0.0.14(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@vue-macros/reactivity-transform@1.1.1)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(nuxt@3.11.1)(postcss@8.4.47)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
   '@web3-fullstack/layer-saas':
-    specifier: 0.1.2
-    version: 0.1.2(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
+    specifier: 0.1.3
+    version: 0.1.3(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0)
   arweave-wallet-connector:
     specifier: ^1.0.2
     version: 1.0.2
@@ -7302,8 +7302,8 @@ packages:
       web-streams-polyfill: 3.3.3
     dev: false
 
-  /@web3-fullstack/layer-saas@0.1.2(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
-    resolution: {integrity: sha512-hjtVr8G+GWUwrkY0LJGyQrQUhc2NZ3QxOka8gvoSvGlnl/fraGzPLP0/k1P98Ma/nnlTXx1Ns3LpCLqMXM/Diw==}
+  /@web3-fullstack/layer-saas@0.1.3(@lezer/common@1.2.1)(@nuxt/devtools@1.6.0)(@popperjs/core@2.11.8)(@vue/compiler-core@3.5.12)(esbuild@0.20.2)(node-fetch@2.7.0)(nuxt@3.11.1)(postcss@8.4.47)(react-native@0.75.4)(react@18.3.1)(vite@5.2.7)(vue@3.5.12)(webpack@5.91.0):
+    resolution: {integrity: sha512-/Ie2iOm/DgBSxESacu2VBxbHgOFm+b4GYXSqXz73LvultJH4FST/5FiunOk+Y6ovavrCQLgiL4MZaKNfOUKhCg==}
     dependencies:
       '@dicebear/collection': 9.2.2(@dicebear/core@9.2.2)
       '@dicebear/core': 9.2.2
