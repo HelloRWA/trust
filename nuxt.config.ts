@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   imports: {
     dirs: ['server/utils/share-utils/*.ts'],
   },
+  modules: [
+    '@vue-macros/nuxt',
+  ],
   routeRules: {
     '/': { redirect: '/tf', prerender: false }
   }
